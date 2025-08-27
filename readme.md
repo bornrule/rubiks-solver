@@ -20,3 +20,37 @@ then solves the cube using the **Kociemba algorithm** and generates a step-by-st
 1. Create a project folder and move into it:
    ```bash
    mkdir rubiks_solver && cd rubiks_solver
+   2. (Optional) create a virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+3. Install requirements:
+
+pip install -r requirements.txt
+
+
+4. Run the program:
+
+python main.py
+
+##🎥 Usage Instructions
+
+When the app starts, it will open a live webcam feed.
+
+A green 3×3 grid overlay will be displayed in the center of the screen.
+
+Place one cube face inside the grid and press SPACE to capture it.
+
+Follow the sequence of faces: U, R, F, D, L, B.
+
+Press r to reset and start capturing faces again.
+
+Once all six faces are captured, press q to compute the solution.
+
+A video file (samples/solution.avi) will be generated showing the solution step by step.
+
+The video will also be displayed automatically. Press q in the video window to stop playback.
+
+   
