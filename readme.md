@@ -22,6 +22,7 @@ then solves the cube using the **Kociemba algorithm** and generates a step-by-st
    
    mkdir rubiks_solver && cd rubiks_solver
 ``bash
+
 2. (Optional) create a virtual environment:
 ``bash
 python3 -m venv venv
