@@ -18,26 +18,23 @@ then solves the cube using the **Kociemba algorithm** and generates a step-by-st
 ## 🚀 Getting Started
 
 1. Create a project folder and move into it:
-   ```bash
-   
+   `
    mkdir rubiks_solver && cd rubiks_solver
-``bash
-
+`
 2. (Optional) create a virtual environment:
-``bash
-python3 -m venv venv
-source venv/bin/activate
-``bash
+
+`python3 -m venv venv
+source venv/bin/activate`
 
 3. Install requirements:
-``bash
-pip install -r requirements.txt
-``bash
+`
+pip install -r requirements.txt`
 
-4. Run the program:
-``bash
-python main.py
-``bash
+
+5. Run the program:
+`
+python main.py`
+   
 ##🎥 Usage Instructions
 
 When the app starts, it will open a live webcam feed.
